@@ -1,0 +1,21 @@
+{
+  "name": "always-music",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "insert": "node src/index.js insert -n=Briggitte -r=16950014-2 -c=4 -l=Medio",
+    "update": "node src/index.js update -n=Briggitte -r=16950014-2 -c=4 -l=Medio",
+    "delete": "node src/index.js delete -r=16950014-2",
+    "list": "node src/index.js list",
+    "search": "node src/index.js search -r=16950014-2"
+  },
+  "author": "Briggitte Ramirez",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "pg": "^8.11.5",
+    "yargs": "^17.7.2"
+  }
+}
